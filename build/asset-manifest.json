@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ed62c71.chunk.css",
+    "main.js": "/static/js/main.df67288d.chunk.js",
+    "main.js.map": "/static/js/main.df67288d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb108e8c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb108e8c.js.map",
+    "static/css/2.7591f55a.chunk.css": "/static/css/2.7591f55a.chunk.css",
+    "static/js/2.695393d6.chunk.js": "/static/js/2.695393d6.chunk.js",
+    "static/js/2.695393d6.chunk.js.map": "/static/js/2.695393d6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7591f55a.chunk.css.map": "/static/css/2.7591f55a.chunk.css.map",
+    "static/css/main.7ed62c71.chunk.css.map": "/static/css/main.7ed62c71.chunk.css.map",
+    "static/js/2.695393d6.chunk.js.LICENSE.txt": "/static/js/2.695393d6.chunk.js.LICENSE.txt",
+    "static/media/document.da22f16f.svg": "/static/media/document.da22f16f.svg",
+    "static/media/dots.9e5a8655.svg": "/static/media/dots.9e5a8655.svg",
+    "static/media/location.692de278.svg": "/static/media/location.692de278.svg",
+    "static/media/pdf.0edaaa0f.svg": "/static/media/pdf.0edaaa0f.svg",
+    "static/media/pen.5e31255f.svg": "/static/media/pen.5e31255f.svg",
+    "static/media/primeicons.css": "/static/media/primeicons.c6e20533.svg",
+    "static/media/stoxkart_old_logo.b15d68cb.png": "/static/media/stoxkart_old_logo.b15d68cb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb108e8c.js",
+    "static/css/2.7591f55a.chunk.css",
+    "static/js/2.695393d6.chunk.js",
+    "static/css/main.7ed62c71.chunk.css",
+    "static/js/main.df67288d.chunk.js"
+  ]
+}

@@ -1,0 +1,78 @@
+@use "./Submenus/Icons";
+.container {
+    display: flex;
+    align-items: center;
+    padding: var(--padding-sm);
+    // border-bottom: 1px solid rgb(211, 211, 211);
+    position: sticky;
+    top: 0;
+    background:  #F5F6F8;
+    z-index: 10;
+    svg {
+        font-size: 1.2rem;
+    }
+}
+
+.burger_top{
+    background: white;
+    height: 20px;
+    width: 100%;
+}
+
+.burger_container {
+    display: none;
+    cursor: pointer;
+    padding: 0.2rem;
+
+    @media screen and (max-width: 1024px) {
+        display: flex;
+    }
+
+    svg {
+        font-size: 1.8rem;
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #475569;
+    
+    @media screen and (max-width: 360px) {
+        justify-content: flex-start;
+        margin-left: 1rem;
+    }
+}
+
+
+.btn_logout {
+ 
+     
+
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    transition: all ease-in-out 200ms;
+    padding: 0.5rem 0.75rem 0 0.75rem;
+    @media screen and (max-width: 1024px) {
+    position: absolute !important;
+    opacity: 0;
+  
+      }
+    svg {
+        font-size: 1.5rem;
+        color: var(--color_nav_active);
+        cursor: pointer;
+        transform: scaleX(-1);
+        @media screen and (max-width: 1024px) {
+       position: absolute !important;
+opacity: 0;
+      
+          }
+    }
+   
+}

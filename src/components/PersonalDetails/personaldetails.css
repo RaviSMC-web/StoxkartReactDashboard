@@ -1,0 +1,79 @@
+.icon_text {
+    background-color: rgba(9, 14, 58, 0.1);
+    padding: 12px 15px;
+    margin-top: -19px !important;
+    font-size: 15px;
+    margin-right: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+   
+    
+}
+
+.dialog_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.dialog_wrapper h5 {
+    margin: 10px 0px;
+}
+.m-5{
+    margin:  25px 0px;
+}
+.smc_color {
+    background-color: #05BB75;
+    border: none;
+}
+.smc_color:hover {
+    background-color: #18b97c !important;
+    border: none;
+}
+.smc_color_outline {
+    color: #05BB75 !important;
+    border: 1px solid #05BB75 !important;
+}
+.close_btn {
+    position: absolute;
+    top: -12px;
+    right: -14px;
+    background: red;
+    color: white;
+}
+.inpu_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-5 {
+    height: 40px;
+    width: 100%;
+}
+/* table td {
+    width: 30%;
+} */
+
+.p-dialog-content {
+    overflow: hidden !important;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon {
+
+    width: 2rem;
+    height: 2rem;
+    color: #ffffff;
+    border: 0 none;
+    background: red !important;
+    border-radius: 50%;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+    margin-right: 0.5rem;
+}
+
+.p-dialog .p-dialog-header-icons {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    flex-shrink: 0;
+    position: absolute !important;
+    right: -10px;
+    top: -9px;
+}

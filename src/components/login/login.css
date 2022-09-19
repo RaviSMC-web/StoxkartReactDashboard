@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.headerTitle{
+    position:absolute;
+    max-width: "30vw";
+    height: "15.5vh";
+    top: "30%";
+    right:"30%";
+    left: "10%"
+}
+
+.right_panel {
+    width: 25%;
+    margin-left: 10%;
+}
+.right_panel h1 {
+    font-size: 45px;
+}
+
+.left_text {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    width: 34%;
+}
+.img_text {
+    color: #ffffff;
+    font-family: inter;
+    font-size: 3vw;
+    font-weight: 800;
+    line-height: 3.6vw;
+}
+.img_logo {
+    display: none;
+}
+
+@media screen and (max-width: 968px) {
+    .left_panel1 {
+        display: none;
+    }
+    .right_panel {
+        width: 420px;
+        margin: 10% auto;
+    }
+    .left_text {
+        display: none;
+    }
+    .img_logo {
+        display: block;
+    }
+    .right_panel {
+        background-color: white;
+        border-radius: 5px;
+        padding: 5%;
+        box-shadow: 10px 10px 5px rgb(5 187 117 / 16%);
+    }
+  }
+  @media screen and (max-width: 778px) {
+    .right_panel {
+       
+        margin: 10% auto;
+    }
+    .right_panel h1 {
+        font-size: 40px;
+    }
+    .img_logo {
+        display: block;
+    }
+    
+
+  }
+
+  @media screen and (max-width: 639px) {
+    .right_panel {
+        
+        margin: 10% auto;
+    }
+    .right_panel h1 {
+        font-size: 36px;
+    }
+  
+   .img_logo {
+    display: block;
+}
+  }
+
+  .resend_btn {
+    display: flex;
+  }
+
+  .resend_btn button{
+    border: none;
+    margin-top: -4px !important;
+    padding: 0px;
+    background: none;
+    height: 20px;
+    padding: 4px;
+  }
+.otp_wrapper input {
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center !important;
+    margin-right: 20px !important;
+    background: #aeb0be1f !important;
+    border-radius: 5px !important;
+    border: 1px solid #63667838  !important;
+}
+
+.otp_wrapper_red input {
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center !important;
+    margin-right: 20px !important;
+    background: #aeb0be1f !important;
+    border-radius: 5px !important;
+    border: 1px solid red !important;
+    color: red;
+}
